@@ -1,8 +1,4 @@
-.header {
-  padding-top: 40px;
-  position: relative;
 
-}
 .hero-background img {
   top: 0;
   left: 0;
@@ -49,6 +45,7 @@ font-family: Montserrat;
 font-size: 10px;
 font-weight: 300;
 line-height: 24px;
+margin-bottom: 10px;
 }
 .hero-foreground {
   padding-top: 20px;
@@ -56,4 +53,15 @@ line-height: 24px;
 }
 .container .uk-slidenav {
   display: none;
+}
+.uk-position-relative  {
+  padding-bottom: 20px;
+}
+.uk-slideshow-items {
+  padding-bottom: 20px;
+}
+@media (min-width: 375px) {
+  .container .hero-foreground {
+    padding-top: 40px;
+  }
 }

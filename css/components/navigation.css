@@ -24,9 +24,19 @@ color: #c7b299;
   width: 18px;
   height: 18px;
 }
+.uk-offcanvas-bar li {
+  padding: 20px 0;
+  border-top: solid 1px white;
+}
+.uk-offcanvas-bar ul {
+  padding: 0;
+}
+.uk-offcanvas-bar {
+}
 @media (min-width: 600px) {
   .nav-items {
     display: flex;
+    flex-wrap: wrap;
   }
   .header .uk-button{
     display: none;
@@ -38,7 +48,7 @@ color: #c7b299;
     display: flex;
   }
   .container .hero-foreground {
-    padding-top: 250px;
+    padding-top: 230px;
   }
   .hero-foreground .hero-under-title {
 font-size: 36px;
@@ -48,6 +58,7 @@ font-size: 52px;
   }
   .hero-foreground .hero-description {
 font-size: 16px;
+  margin-bottom: 70px;
   }
   .header-left .logo-img {
     width: 64px;
@@ -56,5 +67,15 @@ height: 56px;
   .header-left .logo-name {
     font-size: 34px;
   }
+  .main-button {
 
+    width: 170px;
+    height: 53px;
+    color: #ffffff;
+font-family: Raleway;
+font-size: 14px;
+font-weight: 400;
+line-height: 23px;
+text-transform: uppercase;
+  }
 }

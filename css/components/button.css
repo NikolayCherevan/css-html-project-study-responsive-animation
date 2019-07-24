@@ -24,9 +24,9 @@ margin-top: 10px;
   border: none;
   border-radius: 3px;
   background-color: none;
-  margin-left: 40px;
 }
-.uk-button>img {
-  width: 40px;
-  height: 40px;
+  .uk-button .burger-img  {
+  width: 60px;
+  height: 60px;
+
 }
