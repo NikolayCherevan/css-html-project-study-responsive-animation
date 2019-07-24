@@ -1,7 +1,56 @@
-.hero {
+.header {
+  padding-top: 40px;
+  position: relative;
 
 }
+.hero-background img {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  object-fit: cover;
+}
+.hero-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
 
-.hero .hero-title {
-  
+.hero-foreground{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero-under-title {
+  color: #ffffff;
+font-family: Raleway;
+font-size: 36px;
+font-weight: 500;
+}
+.hero-title {
+  color: #ffffff;
+font-family: Raleway;
+font-size: 52px;
+font-weight: 600;
+}
+.hero-description {
+  text-align: center;
+  color: #ffffff;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+}
+.container>.hero-foreground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

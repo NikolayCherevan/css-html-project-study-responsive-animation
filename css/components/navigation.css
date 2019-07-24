@@ -1,0 +1,17 @@
+.nav-items {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+.nav-items>li {
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+padding: 0 15px;
+list-style: none;
+color: black;
+}
+
+.home-nav {
+color: #c7b299;
+}

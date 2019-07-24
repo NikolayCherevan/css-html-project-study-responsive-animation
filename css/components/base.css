@@ -26,14 +26,16 @@ img {
   display: inline-block;
 }
 
-a, .link {
-  color: #000;
+.nav-item, .link , .logo-name {
+  color: white;
   text-decoration: none;
 }
 
-a:hover, .link:hover {
-  color: green;
-  text-decoration: underline;
+.nav-item:hover,.link:hover, .home-nav:hover, .logo:hover {
+  transition: all 1s ease-out;
+  cursor: pointer;
+  color: #c7b299;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
