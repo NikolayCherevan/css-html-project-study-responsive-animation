@@ -25,32 +25,35 @@
   z-index: -1;
 }
 
-.hero-foreground{
-  padding-top: 200px;
-  padding-bottom: 200px;
+.hero-foreground >* {
+ margin:  0;
+
 }
 .hero-under-title {
   color: #ffffff;
 font-family: Raleway;
-font-size: 36px;
+font-size: 10px;
 font-weight: 500;
+
 }
 .hero-title {
   color: #ffffff;
 font-family: Raleway;
-font-size: 52px;
+font-size: 20px;
 font-weight: 600;
 }
 .hero-description {
   text-align: center;
   color: #ffffff;
 font-family: Montserrat;
-font-size: 16px;
+font-size: 10px;
 font-weight: 300;
 line-height: 24px;
 }
-.container>.hero-foreground {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.hero-foreground {
+  padding-top: 20px;
+  text-align: center;
+}
+.container .uk-slidenav {
+  display: none;
 }

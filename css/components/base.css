@@ -10,9 +10,11 @@ html {
 
 body {
   margin: 0;
+
 }
 
 .container {
+  padding: 0 10px;
   max-width: 1170px;
   margin: 0 auto;
 }

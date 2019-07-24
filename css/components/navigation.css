@@ -1,7 +1,6 @@
 .nav-items {
-  display: flex;
-  height: 60px;
-  align-items: center;
+  display: none;
+  margin: 0;
 }
 .nav-items>li {
 font-family: Montserrat;
@@ -14,4 +13,48 @@ color: black;
 
 .home-nav {
 color: #c7b299;
+}
+.uk-offcanvas-bar {
+  width: 134px;
+}
+.uk-offcanvas-bar ul {
+  display: block;
+}
+.burger-img {
+  width: 18px;
+  height: 18px;
+}
+@media (min-width: 600px) {
+  .nav-items {
+    display: flex;
+  }
+  .header .uk-button{
+    display: none;
+  }
+  .container {
+    padding: 0;
+  }
+  .container .uk-position-relative .uk-slidenav-large {
+    display: flex;
+  }
+  .container .hero-foreground {
+    padding-top: 250px;
+  }
+  .hero-foreground .hero-under-title {
+font-size: 36px;
+  }
+  .hero-foreground .hero-title {
+font-size: 52px;
+  }
+  .hero-foreground .hero-description {
+font-size: 16px;
+  }
+  .header-left .logo-img {
+    width: 64px;
+height: 56px;
+  }
+  .header-left .logo-name {
+    font-size: 34px;
+  }
+
 }

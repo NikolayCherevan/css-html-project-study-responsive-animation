@@ -4,12 +4,9 @@
   <head>
     <link rel="stylesheet" href="css/main.css">
     <meta charset="utf-8">
+    <title> waxom </title>
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
-
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
   </head>
@@ -21,6 +18,25 @@
           <a class="logo" href="#"> <img class="logo-img" src="images/icons/logos.svg" alt="image"> <span class="logo-name"> Waxom </span> </a>
         </div>
         <div class="header-nav">
+          <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-flip"><img class="burger-img" src="images/icons/menu.svg"> </button>
+
+<div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close> </button>
+        <ul class="nav-items">
+          <li><a class="home-nav"> Home </a> </li>
+          <li><a class="nav-item"> About us</a> </li>
+          <li><a class="nav-item"> Potfolio </a> </li>
+          <li><a class="nav-item"> Features</a> </li>
+          <li><a class="nav-item"> Blog</a> </li>
+          <li><a class="nav-item"> Pricing</a> </li>
+          <li><a class="nav-item"> Shortcodes</a> </li>
+          <li><a class="nav-item"> Contact</a> </li>
+        </ul>
+
+    </div>
+</div>
           <ul class="nav-items">
             <li><a class="home-nav"> Home </a> </li>
             <li><a class="nav-item"> About us</a> </li>
@@ -42,14 +58,45 @@
       <section class="hero">
         <div class="hero-background"> <img class="hero-img" src="images/hero.png" alt="image"></div>
         <div class="container">
-          <div class="hero-foreground">
-            <p class="hero-under-title"> Unique and Modern Design </p>
-            <h1 class="hero-title"> Portfolio PSD Template </h1>
-            <p class="hero-description"> Nam liber tempor cum soluta nobis eleifend option congue nihil imper<br>diet doming id quod mazim placerat facer possim assum.
-            </p>
+          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+
+              <ul class="uk-slideshow-items">
+                  <li>
+                    <div class="hero-foreground">
+                      <p class="hero-under-title"> Unique and Modern Design </p>
+                      <h1 class="hero-title"> Portfolio PSD Template </h1>
+                      <p class="hero-description"> Nam liber tempor cum soluta nobis eleifend option congue nihil imper<br>diet doming id quod mazim placerat facer possim assum.
+                      </p>
+    <button class="main-button"> Get started </button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="hero-foreground">
+                      <p class="hero-under-title"> Unique and Modern Design </p>
+                      <h1 class="hero-title"> Portfolio PSD Template </h1>
+                      <p class="hero-description"> Nam liber tempor cum soluta nobis eleifend option congue nihil imper<br>diet doming id quod mazim placerat facer possim assum.
+                      </p>
+    <button class="main-button"> Get started </button>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="hero-foreground">
+                      <p class="hero-under-title"> Unique and Modern Design </p>
+                      <h1 class="hero-title"> Portfolio PSD Template </h1>
+                      <p class="hero-description"> Nam liber tempor cum soluta nobis eleifend option congue nihil imper<br>diet doming id quod mazim placerat facer possim assum.
+                      </p>
+    <button class="main-button"> Get started </button>
+                    </div>
+                  </li>
+              </ul>
+
+              <a class="uk-slidenav-large uk-position-center-left uk-position-small " href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+              <a class="uk-slidenav-large uk-position-center-right uk-position-small " href="#" uk-slidenav-next uk-slideshow-item="next"></a>
 
           </div>
+
         </div>
+
       </section>
     </header>
 
@@ -59,5 +106,8 @@
     </main>
     <footer class="footer"></footer>
   </body>
+  <!-- UIkit JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
 
 </html>

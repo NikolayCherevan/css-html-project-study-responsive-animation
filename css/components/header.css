@@ -1,35 +1,42 @@
 .container-head {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   display: flex;
-  align-items: center;
 }
 .logo-name {
 font-family: Raleway;
-font-size: 34px;
+font-size: 20px;
 font-weight: 400;
 letter-spacing: -1.36px;
 }
 .logo-img {
-width: 64px;
-height: 56px;
+width: 30px;
+height: 30px;
 }
 .logo-img:hover {
   transform: rotate(180deg);
   transition: all 1s ease-out;
 }
 .header-icons {
-  height: 60px;
   display: flex;
-  align-items:center;
+  justify-content: center;
 }
 .header-icons>li {
   padding: 0 14px;
   list-style-type: none;
 }
-.header-icon {
+ul.header-icons {
+  margin: 0;
+}
+.header-icons>img{
+  width: 100px;
+  height: 100px;
+}
+@media (min-width: 320px) {
+  .header-icon {
   width: 18px;
   height: 24px;
-}
+  }
