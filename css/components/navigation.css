@@ -48,7 +48,7 @@ color: #c7b299;
     display: flex;
   }
   .container .hero-foreground {
-    padding-top: 230px;
+    margin-top: 200px;
   }
   .hero-foreground .hero-under-title {
 font-size: 36px;

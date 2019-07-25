@@ -1,22 +1,57 @@
 .card {
-  padding: 10px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ padding: 20px 0px;
+ border-bottom: solid 0.2px gray;
 }
 .card .card-header {
-  
+
 }
 .card .card-body {
-  
+
 }
 .card .card-image > img {
   display: block;
+  width: 30px;
+  height: 30px;
 }
 .card .card-title {
-  
+  padding-top: 10px;
+  color: #555555;
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: 400;
 }
 .card .card-description {
-  
+  margin: 0;
+  text-align: center;
+  color: #8c8c8c;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 24px;
 }
 
 .card-portfolio .card-title {
-  
+
+}
+.card-link {
+
+  color: black;
+}
+.card-link:hover {
+  transition: all 1s ease-out;
+  cursor: pointer;
+  color: #c7b299;
+  text-decoration: none;
+}
+.card .card-decoration {
+  display: none;
+  width: 50px;
+  height: 10px;
+  border-bottom: solid 1px blue;
+}
+.card-link:hover .card-decoration {
+  display: block;
 }
