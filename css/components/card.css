@@ -11,8 +11,8 @@
 .card .card-body {
 
 }
-.card .card-image > img {
-  display: block;
+.card .card-icon {
+  font-size: 30px;
   width: 30px;
   height: 30px;
 }
@@ -55,4 +55,30 @@
 .s-a:hover .card-decoration {
   display: flex;
   border-bottom: solid 1px  #c7b299;
+}
+.s-a:hover .card-icon {
+  color: #c7b299;
+}
+.uk-card>*{
+  border: none;
+}
+@media (min-width: 600px) {
+  .section-a>.container {
+    display: flex;
+    padding: 0 20px;
+  }
+  .container> .s-a {
+    border:none;
+    margin-top: 50px;
+  }
+  .uk-card{
+
+    box-shadow: none;
+  }
+  .card.s-a {
+      width: 166px;
+    }
+  .uk-grid>* {
+    padding-left: 61px;
+}
 }
