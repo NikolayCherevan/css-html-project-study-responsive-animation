@@ -3,11 +3,13 @@
   overflow: hidden;
 }
 .section-title {
+  padding-top: 30px;
 text-align: center;
 color: #555555;
 font-family: Raleway;
 font-size: 20px;
 font-weight: 600;
+margin: 0;
 }
 .section-description {
   text-align: center;
@@ -17,6 +19,29 @@ font-weight: 600;
   font-weight: 400;
   line-height: 28px;
 }
+.section-c {
+  background-color: #f4f5f8;
+  background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+}
+.brown-theme-title {
+  padding-top: 20px;
+  color: #ffffff;
+font-family: Raleway;
+font-size: 15px;
+font-weight: 400;
+}
+.brown-theme-description {
+  color: #615855;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+}
+  .img-inline {
+  padding-bottom: 20px;
+  }
+  .waxom-main-style {
+    color: #c7b299;
+  }
 @media (min-width: 600px) {
   .section-description {
     margin: 0 auto;
@@ -30,4 +55,5 @@ font-weight: 600;
     padding-top: 60px;
     display: flex;
     align-items: flex-end;
+    }
   }
