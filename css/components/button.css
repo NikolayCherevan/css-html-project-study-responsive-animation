@@ -30,3 +30,17 @@ margin-top: 10px;
   height: 60px;
 
 }
+
+.uk-subnav-pill>.uk-active>a {
+  border-radius: 3px;
+  background-color: #998675;
+
+
+}
+.uk-subnav>*>:first-child {
+text-transform: none;
+color: #8c8c8c;
+font-family: Montserrat;
+font-style: oblique;
+font-size: 12px;
+}

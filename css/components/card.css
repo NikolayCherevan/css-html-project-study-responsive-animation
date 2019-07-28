@@ -1,8 +1,9 @@
 .card {
+  position: relative;
+  width: 100%;
  display: flex;
  align-items: center;
  flex-direction: column;
- padding: 20px 0px;
  border-bottom: solid 0.2px gray;
 }
 .card .card-header {
@@ -62,7 +63,92 @@
 .uk-card>*{
   border: none;
 }
+.card-icon-sd {
+  width: 20px;
+  margin: 0 5px;
+}
+.uk-inline-clip> .card-img {
+  position: relative;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.uk-text-center:hover .cover-img {
+  visibility: visible;
+}
+.cover-img {
+  visibility: hidden;
+display: block;
+background-color: black;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+opacity: 0.5;
+z-index: 2;
+}
+
+.card-icon-sd:hover {
+  opacity: 0.6;
+}
+
+figure {
+  position: relative;
+  margin: 0;
+}
+
+.card-image >img {
+
+  display: block;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #fbfaf8;
+  width: 100%;
+  text-align: center;
+}
+.card:hover .dark-cover{
+  display: block;
+}
+
+.dark-cover {
+  width: 100%;
+  display:none;
+  background: black;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 23.3%;
+  right: 0;
+  position: absolute;
+}
+.cover-img {
+   top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position:absolute;
+}
+.uk-flex {
+  flex-wrap: wrap;
+}
+.uk-margin-left {
+  margin-left: 0!important;
+}
+.card:hover .card-body {
+  background-color: #362f2d;
+}
 @media (min-width: 600px) {
+  .uk-flex-center {
+    flex-wrap: wrap;
+  }
+  .uk-card {
+    width: 33.33%;
+  }
   .section-a>.container {
     display: flex;
     padding: 0 20px;
@@ -81,4 +167,5 @@
   .uk-grid>* {
     padding-left: 61px;
 }
+
 }
