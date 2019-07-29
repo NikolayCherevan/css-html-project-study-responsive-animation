@@ -42,18 +42,48 @@ font-weight: 400;
   .waxom-main-style {
     color: #c7b299;
   }
+  .container-brown {
+    padding-bottom: 20px;
+  }
+  .section-title>img {
+    width: 500px;
+    height: 100px;
+  }
 @media (min-width: 600px) {
   .section-description {
     margin: 0 auto;
     width: 600px;
   }
-  .s-b-2>img {
-    position:relative;
-    z-index: 999;
+  .s-b-3 {
+    z-index: -999;
+    margin-left: -100px;
+    position: relative;
   }
+  .s-b-1 {
+    z-index: -999;
+    margin-left: 100px;
+    position: relative;
+  }
+  .s-b-2>img {
+    z-index: 999;
+
+  }
+
+
   .img-inline {
-    padding-top: 60px;
     display: flex;
     align-items: flex-end;
+    margin: 0 auto;
+    padding: 0;
     }
+    .container-brown {
+       display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      align-items: center;
+    }
+    .container-left>p {
+      margin-left: -40px;
+    }
+
   }

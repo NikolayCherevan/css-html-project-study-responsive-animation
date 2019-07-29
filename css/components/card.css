@@ -26,7 +26,6 @@
 }
 .card .card-description {
   margin: 0;
-  text-align: center;
   color: #8c8c8c;
   font-family: Montserrat;
   font-size: 10px;
@@ -102,37 +101,59 @@ figure {
 .card-image >img {
 
   display: block;
-  height: 250px;
+  height: 237px;
   object-fit: cover;
 }
-
+.card-body>p {
+  margin: 0;
+}
 .card-body {
+  z-index: 1;
   background-color: #fbfaf8;
   width: 100%;
-  text-align: center;
+}
+.card-body>p {
+  text-align: left;
+  padding-left: 10px;
 }
 .card:hover .dark-cover{
   display: block;
 }
-
+.card:hover .sd-title{
+  color: #ffffff;
+font-family: Raleway;
+font-weight: 500;
+}
+.card:hover .sd-description{
+color: #c7b299;
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 300;
+line-height: 20px;
+}
+.cover-img {
+  display: none;
+  z-index: 999;
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 .dark-cover {
-  width: 100%;
+  z-index: 0;
   display:none;
   background: black;
   opacity: 0.5;
   top: 0;
   left: 0;
-  bottom: 23.3%;
+  bottom: 19%;
   right: 0;
   position: absolute;
+  overflow: hidden;
 }
-.cover-img {
-   top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position:absolute;
-}
+
+
 .uk-flex {
   flex-wrap: wrap;
 }
@@ -141,6 +162,15 @@ figure {
 }
 .card:hover .card-body {
   background-color: #362f2d;
+}
+.card-title {
+  padding-top: 10px;
+}
+.card-description {
+  margin: 0;
+}
+.card-body {
+  padding: 10px 0;
 }
 @media (min-width: 600px) {
   .uk-flex-center {

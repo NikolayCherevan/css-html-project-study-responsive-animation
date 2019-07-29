@@ -41,6 +41,21 @@ margin-top: 10px;
 text-transform: none;
 color: #8c8c8c;
 font-family: Montserrat;
-font-style: oblique;
 font-size: 12px;
+}
+.content-button {
+  margin-top: 0;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+margin-bottom: 20px;
+
+
+}
+.right-container>.button-sc{
+ height: 30px;
+ height: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
 }
