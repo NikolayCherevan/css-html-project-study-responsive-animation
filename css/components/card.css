@@ -101,7 +101,6 @@ figure {
 .card-image >img {
 
   display: block;
-  height: 237px;
   object-fit: cover;
 }
 .card-body>p {
@@ -109,7 +108,6 @@ figure {
 }
 .card-body {
   z-index: 1;
-  background-color: #fbfaf8;
   width: 100%;
 }
 .card-body>p {
@@ -169,8 +167,54 @@ line-height: 20px;
 .card-description {
   margin: 0;
 }
+.card-e {
+  padding-top: 30px;
+  border-bottom: solid 2px #ffffff;
+  margin-bottom: 30px;
+}
+.card-e>* {
+  text-align: center;
+}
 .card-body {
   padding: 10px 0;
+}
+.img-e {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.card-title-e {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+}
+.card-description-e {
+  color: #c7b299;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.people {
+  position: relative;
+  left: 45%;
+}
+.coffee {
+  position: relative;
+  left: 40%;
+}
+._thoughts {
+  position: relative;
+  left: 20%;
+}
+.heart {
+
+}
+.baranchik {
+  position: relative;
+  left: 30%;
 }
 @media (min-width: 600px) {
   .uk-flex-center {
@@ -192,7 +236,7 @@ line-height: 20px;
     box-shadow: none;
   }
   .card.s-a {
-      width: 166px;
+    width: 166px;
     }
   .uk-grid>* {
     padding-left: 61px;

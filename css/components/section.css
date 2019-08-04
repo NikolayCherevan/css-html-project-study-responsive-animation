@@ -19,7 +19,7 @@ margin: 0;
   font-weight: 400;
   line-height: 28px;
 }
-.section-c {
+.section-f {
   background-color: #f4f5f8;
   background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 }
@@ -49,6 +49,9 @@ font-weight: 400;
     width: 500px;
     height: 100px;
   }
+  .col1-5 {
+    
+  }
 @media (min-width: 600px) {
   .section-description {
     margin: 0 auto;
@@ -68,7 +71,6 @@ font-weight: 400;
     z-index: 999;
 
   }
-
 
   .img-inline {
     display: flex;

@@ -18,6 +18,12 @@
 .col-1-4 {
   width: 100%;
 }
+.col1-5 {
+  display: flex;
+  justify-content:center;
+  width: 100%;
+
+}
 .aside-img> img{
   margin-top: 10px;
   padding-top: 20px;
@@ -51,10 +57,13 @@ font-weight: 300;
 line-height: 32px;
 }
 @media (min-width: 600px) {
+  .col1-5 {
+    width: 20%;
+  }
   .col-1-4 {
     width: 40%;
   }
-.col-1-2>p {
+  .col-1-2>p {
   text-align: left;
   margin: 0;
 }

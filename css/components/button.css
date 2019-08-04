@@ -55,7 +55,8 @@ margin-bottom: 20px;
 .right-container>.button-sc{
  height: 30px;
  height: 30px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%)
+ position: relative;
+ left: 50%;
+ transform: translateX(-50%);
+ margin-right: 289px;
 }
